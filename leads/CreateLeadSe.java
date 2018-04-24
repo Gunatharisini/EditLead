@@ -28,7 +28,7 @@ public class CreateLeadSe extends ProjectMethod {
 		click(locateElement("class","smallSubmit"));
 
 		//To close the current window
-		closeBrowser();
+		//closeBrowser();
 	}
 
 }
