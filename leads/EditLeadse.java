@@ -14,7 +14,7 @@ public class EditLeadse extends ProjectMethod {
 
 		//Click on the link find lead;
 		click(locateElement("linktext","Find Leads"));
-		//Thread.sleep(2000);
+		Thread.sleep(2000);
 		
 		//Enter first name
 		//type(locateElement("id","(//input[@class=' x-form-text x-form-field '])"),"Guna");
@@ -23,7 +23,7 @@ public class EditLeadse extends ProjectMethod {
 		//Click Find leads button
 		click(locateElement("xpath","//button[text()='Find Leads']"));
 		
-		//Thread.sleep(2000);
+		Thread.sleep(2000);
 		
 		//Click on first resulting lead
 		click(locateElement("xpath","(//div[@class='x-grid3-cell-inner x-grid3-col-partyId'])[1]/a"));
